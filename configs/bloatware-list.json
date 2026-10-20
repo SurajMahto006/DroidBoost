@@ -1,0 +1,151 @@
+{
+  "description": "DroidBoost bloatware and package catalog for Android TV / Google TV",
+  "version": "1.0.0",
+  "safe_to_disable": [
+    {
+      "package": "com.amazon.amazonvideo.livingroom",
+      "name": "Amazon Prime Video",
+      "category": "Streaming Bloatware",
+      "description": "Pre-installed Amazon Prime Video app and background service"
+    },
+    {
+      "package": "com.google.android.tvrecommendations",
+      "name": "Google TV Recommendations",
+      "category": "Google Telemetry / Ads",
+      "description": "Runs in background pushing sponsored rows and ads, high RAM usage"
+    },
+    {
+      "package": "com.google.android.backdrop",
+      "name": "Google Backdrop",
+      "category": "Screensaver / RAM Hog",
+      "description": "High RAM screensaver service (~77 MB)"
+    },
+    {
+      "package": "com.google.android.tungsten.setupwraith",
+      "name": "Google TV Setup Wizard",
+      "category": "Setup Bloat",
+      "description": "First-time setup wizard kept alive in RAM (~57 MB)"
+    },
+    {
+      "package": "com.google.android.feedback",
+      "name": "Google Feedback",
+      "category": "Google Telemetry",
+      "description": "Background crash and telemetry reporter"
+    },
+    {
+      "package": "com.google.android.syncadapters.calendar",
+      "name": "Google Calendar Sync",
+      "category": "Sync Adapters",
+      "description": "Syncs Google calendar events to TV (not needed on TV)"
+    },
+    {
+      "package": "com.android.providers.calendar",
+      "name": "Calendar Storage Provider",
+      "category": "System Bloat",
+      "description": "Local calendar database provider"
+    },
+    {
+      "package": "com.android.providers.contacts",
+      "name": "Contacts Storage Provider",
+      "category": "System Bloat",
+      "description": "Local contacts database provider (not needed on TV)"
+    },
+    {
+      "package": "com.android.printspooler",
+      "name": "Print Spooler",
+      "category": "System Bloat",
+      "description": "Printer spooling service (TVs do not print)"
+    },
+    {
+      "package": "com.android.deskclock",
+      "name": "Desk Clock",
+      "category": "System Bloat",
+      "description": "Clock & alarm service (wastes background memory)"
+    },
+    {
+      "package": "com.android.soundpicker",
+      "name": "Sound / Ringtone Picker",
+      "category": "System Bloat",
+      "description": "Phone sound/ringtone selection utility"
+    },
+    {
+      "package": "fusion.android.tv.demo",
+      "name": "Retail Store Demo Mode",
+      "category": "OEM Bloatware",
+      "description": "Showroom retail display demo application"
+    },
+    {
+      "package": "com.google.android.marvin.talkback",
+      "name": "Android Accessibility TalkBack",
+      "category": "Accessibility",
+      "description": "Screen reader for visually impaired (disable if not needed)"
+    },
+    {
+      "package": "com.google.android.youtube.tvmusic",
+      "name": "YouTube Music TV",
+      "category": "Streaming Bloatware",
+      "description": "Pre-installed music streaming app"
+    },
+    {
+      "package": "com.google.android.play.games",
+      "name": "Google Play Games",
+      "category": "Google Bloatware",
+      "description": "Google Play gaming services and achievements"
+    },
+    {
+      "package": "com.google.android.videos",
+      "name": "Google TV Movies & Shows",
+      "category": "Google Bloatware",
+      "description": "Google Play Movies / TV video store"
+    },
+    {
+      "package": "tv.anoki.acr.controller",
+      "name": "Anoki ACR Ad Tracker",
+      "category": "Ad Tracking & Telemetry",
+      "description": "Automatic Content Recognition ad tracking agent"
+    },
+    {
+      "package": "com.haier.apps.evoSmart",
+      "name": "Haier EvoSmart",
+      "category": "OEM Bloatware",
+      "description": "Haier smart ecosystem background agent"
+    },
+    {
+      "package": "com.haierubic.usmartdevice",
+      "name": "Haier uSmart Device",
+      "category": "OEM Bloatware",
+      "description": "Haier IoT device management daemon"
+    },
+    {
+      "package": "com.haier.apps.shahid",
+      "name": "Shahid Streaming (Haier)",
+      "category": "Regional Bloatware",
+      "description": "Pre-loaded Shahid streaming client"
+    },
+    {
+      "package": "com.haier.apps",
+      "name": "Haier Apps Hub",
+      "category": "OEM Bloatware",
+      "description": "Secondary OEM app storefront"
+    }
+  ],
+  "protected": [
+    "android",
+    "com.android.systemui",
+    "com.android.tv.settings",
+    "com.android.settings",
+    "com.google.android.gms",
+    "com.android.vending",
+    "com.google.android.inputmethod.latin",
+    "com.android.inputmethod.latin",
+    "com.android.bluetooth",
+    "com.android.wifi.resources",
+    "com.mediatek.tvinput",
+    "com.mediatek.tv.service",
+    "com.mediatek.wwtv.tvcenter",
+    "com.google.android.webview",
+    "com.google.android.packageinstaller",
+    "com.android.packageinstaller",
+    "com.android.permissioncontroller"
+  ]
+}

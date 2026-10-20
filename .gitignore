@@ -1,0 +1,14 @@
+# Logs & Backups
+*.log
+*-backup.txt
+*-disabled.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+scratch/
